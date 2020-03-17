@@ -10,7 +10,7 @@
         android:id="@+id/relativelayout"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:background="@color/colorPrimary">
+        android:background="#04AF3D">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -27,7 +27,7 @@
         android:layout_height="120dp"
         android:layout_below="@id/relativelayout"
         android:layout_marginTop="-50dp"
-        android:background="@drawable/waves" />
+        android:background="@drawable/newwaves" />
 
     <TextView
         android:id="@+id/textview"
@@ -38,7 +38,7 @@
         android:layout_marginTop="10dp"
         android:text="Please Enter OTP"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="@color/colorPrimaryDark" />
+        android:textColor="@color/green" />
 
 
 
@@ -60,7 +60,7 @@
         android:layout_below="@id/edittextcode"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:background="@color/colorPrimary"
+        android:background="@color/green"
         android:text="Sign In"
         android:textAllCaps="false"
         android:textColor="#ffffff" />

@@ -10,14 +10,14 @@
         android:id="@+id/relativelayout"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:background="@color/colorPrimary">
+        android:background="@color/green">
 
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:background="@drawable/ic_logo" />
+            android:background="@drawable/digiration" />
 
     </RelativeLayout>
 
@@ -27,7 +27,7 @@
         android:layout_height="120dp"
         android:layout_below="@id/relativelayout"
         android:layout_marginTop="-50dp"
-        android:background="@drawable/waves" />
+        android:background="@drawable/newwaves" />
 
     <TextView
         android:id="@+id/textview"
@@ -38,7 +38,7 @@
         android:layout_marginTop="30dp"
         android:text="May I ask you phone number?"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="@color/colorPrimary" />
+        android:textColor="@color/green" />
 
     <LinearLayout
         android:id="@+id/linearlayout"
@@ -70,7 +70,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/linearlayout"
         android:layout_centerHorizontal="true"
-        android:background="@color/colorPrimary"
+        android:background="@color/green"
         android:text="Continue"
         android:textAllCaps="false"
         android:textColor="#ffffff" />

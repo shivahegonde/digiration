@@ -42,9 +42,12 @@ public class MainActivity extends AppCompatActivity {
 
                 String phoneNumber = "+" +code+ number;
 
-                Intent intent = new Intent(MainActivity.this, VerifyPhoneActivity.class);
-                intent.putExtra("phonenumber", phoneNumber);
+
+                Intent intent = new Intent(MainActivity.this, DashBoard.class);
+//                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
+//                intent.putExtra("phonenumber", phoneNumber);
                 startActivity(intent);
+
 
             }
         });

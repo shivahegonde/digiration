@@ -15,7 +15,7 @@
         android:layout_centerVertical="true"
         android:text="Welcome to Your Profile"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
-        android:textColor="@color/colorPrimary" />
+        android:textColor="@color/green" />
 
 
     <Button
@@ -25,7 +25,7 @@
         android:layout_below="@id/textview"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-        android:background="@color/colorPrimary"
+        android:background="@color/green"
         android:text="Logout"
         android:textAllCaps="false"
         android:textColor="#ffffff" />
